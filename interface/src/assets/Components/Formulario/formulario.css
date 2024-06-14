@@ -1,0 +1,161 @@
+.cadastrar {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px black;
+    border-radius: 25px;
+    height: 500px;
+    width: 450px;
+
+}
+
+.editar {
+    display: flex;
+    flex-direction: column;
+    border: solid 5px black;
+    border-radius: 25px;
+    height: 500px;
+    width: 450px;
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    margin-top: 30px;
+    height: 40px;
+    width: 350px;
+    border: none;
+    border-radius: 25px;
+    text-align: center;
+    background-color: rgb(41, 80, 53);
+    color: white;
+    font-size: 25px;
+
+}
+
+input::placeholder {
+    text-align: center;
+    color: white;
+    font-size: 25px;
+}
+
+button {
+    margin-top: 50px;
+    width: 250px;
+    height: 40px;
+    border: none;
+    border-radius: 25px;
+    background-color: rgb(41, 80, 53);
+    font-size: 25px;
+    color: white;
+    cursor: pointer;
+    transition: .3s;
+
+}
+
+button:hover {
+    border: solid 5px black;
+    background-color: white;
+    color: black;
+    box-shadow: 0px 0px 10px black;
+}
+
+.cancelaEdicao {
+    margin-top: 20px;
+    width: 120px;
+    border: solid;
+    background-color: rgb(107, 21, 21);
+}
+
+.cancelaEdicao:hover {
+    border: solid 5px rgb(107, 21, 21);
+}
+
+@media screen and (max-width: 500px) {
+    .cadastrar {
+        display: flex;
+        flex-direction: column;
+        border: solid 5px black;
+        border-radius: 25px;
+        height: 450px;
+        width: 350px;
+
+
+    }
+
+    .editar {
+        display: flex;
+        flex-direction: column;
+        border: solid 5px black;
+        border-radius: 25px;
+        height: 520px;
+        width: 350px;
+        margin-top: 20px;
+
+    }
+
+    form {
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+    }
+
+    input {
+        margin-top: 30px;
+        height: 40px;
+        width: 300px;
+        border: none;
+        border-radius: 25px;
+        text-align: center;
+        background-color: rgb(41, 80, 53);
+        color: white;
+        font-size: 25px;
+
+    }
+
+    input::placeholder {
+        text-align: center;
+        color: white;
+        font-size: 25px;
+    }
+
+    button {
+        margin-top: 20px;
+        width: 200px;
+        height: 40px;
+        border: none;
+        border-radius: 25px;
+        background-color: rgb(41, 80, 53);
+        font-size: 25px;
+        color: white;
+        cursor: pointer;
+        transition: .3s;
+
+    }
+
+    button:hover {
+        border: solid 5px black;
+        background-color: white;
+        color: black;
+        box-shadow: 0px 0px 10px black;
+    }
+
+    .cancelaEdicao {
+        margin-top: 20px;
+        width: 120px;
+        border: solid;
+        background-color: rgb(107, 21, 21);
+    }
+
+    .cancelaEdicao:hover {
+        border: solid 5px rgb(107, 21, 21);
+    }
+}

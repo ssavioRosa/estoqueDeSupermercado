@@ -1,0 +1,141 @@
+.buscar {
+
+  justify-content: center;
+  margin-bottom: 20px;
+  margin-left: 100px;
+
+}
+
+.iconBusca {
+  margin-left: 20px;
+}
+
+.tabela {
+  height: 650px;
+  width: 600px;
+  border: solid 5px black;
+  border-radius: 25px;
+  margin-left: 100px;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  overflow-y: auto;
+}
+
+table {
+  max-height: 700px;
+  width: 550px;
+  margin: auto;
+  margin-top: 20px;
+
+}
+
+thead {
+  height: 50px;
+  font-size: 30px;
+
+}
+
+th {
+  width: 170px;
+}
+
+td {
+  font-size: 20px;
+  margin-top: 20px;
+}
+
+.iconeTools {
+  width: 40px;
+}
+
+.iconeToolsTd {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: auto;
+
+}
+
+.edita {
+  font-size: 25px;
+}
+
+.deleta {
+  font-size: 30px;
+}
+
+@media screen and (max-width: 500px) {
+  .tabela {
+    height: 650px;
+    width: 350px;
+    border: solid 5px black;
+    border-radius: 25px;
+    margin-left: 100px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    overflow-y: auto;
+    margin: auto;
+  }
+
+  table {
+    max-height: 600px;
+    width: 300px;
+    margin: auto;
+    margin-top: 20px;
+
+  }
+
+  thead {
+    height: 50px;
+    font-size: 20px;
+
+  }
+
+  th {
+    width: 90px;
+  }
+
+  td {
+    font-size: 15px;
+    margin-top: 20px;
+  }
+
+  .iconeTools {
+    width: 30px;
+  }
+
+  .iconeToolsTd {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: auto;
+  }
+
+  .edita {
+    font-size: 15px;
+
+  }
+
+  .deleta {
+    font-size: 20px;
+
+
+  }
+
+  .buscar {
+
+    justify-content: center;
+    margin: auto;
+
+  }
+
+  .iconBusca {
+    display: none;
+  }
+}
